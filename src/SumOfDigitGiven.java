@@ -16,8 +16,8 @@ public class SumOfDigitGiven {
 
         int sum= 0;
         while (n != 0) {
-            sum = sum + n%10; //N%10 GIVING REMAINDER 1 + 2
-            n = n/10; // N/10 GIVEN QUOTIENT  n = 121/10 - 10
+            sum = sum + n%10; //N%10 GIVING REMAINDER
+            n = n/10; // N/10 GIVEN QUOTIENT
         }
         return sum;
     }
