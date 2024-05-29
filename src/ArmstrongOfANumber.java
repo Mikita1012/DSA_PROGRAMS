@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ArmstrongOfANumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please exnter the value you want to check is AMSTRONG. ");
+        System.out.println("Please enter the value you want to check is AMSTRONG. ");
         int n = sc.nextInt();
         if (checkArmstrong(n))
             System.out.println("Armstrong");
